@@ -1,0 +1,16 @@
+
+body{
+	background-color: Fbfaf8;
+}
+.form {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
