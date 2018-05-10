@@ -1,12 +1,30 @@
-body{
-	background-color: #EEEEEE;
+button.navbar-toggler{
+	border:none;
 }
-
-#container{
-	background-color: white;
+nav{
+	text-align: left;
 }
+hr{
+	width:33%;
+	border-color:black;
+	display: inline-block;
+}
+h2{
+	display:inline;
+	font-size: 20pt;
+}
+h3{
+	display:inline;
+	font-size:15pt;
 
-#header {
-	background-color: #85c2d2;;
-	color: black;
+}
+div.userheading{
+	width:33%;
+	display:inline-block;
+	text-align: center;
+}
+div.usertext{
+	width:66%;
+	display: inline;
+	text-align:center;
 }
