@@ -1,0 +1,30 @@
+button.navbar-toggler{
+	border:none;
+}
+nav{
+	text-align: left;
+}
+hr{
+	width:33%;
+	border-color:black;
+	display: inline-block;
+}
+h2{
+	display:inline;
+	font-size: 20pt;
+}
+h3{
+	display:inline;
+	font-size:15pt;
+
+}
+div.userheading{
+	width:33%;
+	display:inline-block;
+	text-align: center;
+}
+div.usertext{
+	width:66%;
+	display: inline;
+	text-align:center;
+}
