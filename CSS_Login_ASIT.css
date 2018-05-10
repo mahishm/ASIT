@@ -1,0 +1,30 @@
+p {
+	font-family: arial, verdana, sans-serif;
+	font-size: 15pt;
+	margin:10px;
+	text-shadow: grey;
+	text-orientation: 
+
+}
+form{
+	font-family: arial, verdana, sans-serif;
+	font-size: 20pt;
+}
+input{
+	font-family: arial, verdana, sans-serif;
+	font-size: 20pt;
+}
+img{
+	opacity: .25;
+	height: auto;
+	width: auto;
+}
+#ASITLogo
+{
+
+}
+div{
+	background-color: green;  
+	margin: auto;
+
+}
