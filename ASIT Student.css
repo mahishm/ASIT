@@ -5,23 +5,28 @@ nav{
 	text-align: left;
 }
 hr{
-	width:33%;
+	width:30%;
 	border-color:black;
 	display: inline-block;
 }
+img{
+	display: inline-block;
+	vertical-align: center;
+	height: 10px;
+}
 h1{
-	display:inline;
+	display:inline-block;
 	font-size: 15pt;
 	margin-top:10px;
 }
 h2{
-	display:inline;
+	display:inline-block;
 	font-size:10pt;
-
 }
 div.userheading{
 	display:inline-block;
 	text-align: center;
+	size: 10px;
 }
 span.usertext{
 	width:66%;
