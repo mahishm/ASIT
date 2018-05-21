@@ -1,0 +1,121 @@
+[Tue May 15 12:38:56.503593 2018] [ssl:warn] [pid 9824:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 15 12:38:56.534963 2018] [core:warn] [pid 9824:tid 632] AH00098: pid file C:/Users/rhennessey2019/Desktop/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 15 12:38:56.534963 2018] [ssl:warn] [pid 9824:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 15 12:38:56.534963 2018] [mpm_winnt:notice] [pid 9824:tid 632] AH00455: Apache/2.4.33 (Win32) OpenSSL/1.1.0g configured -- resuming normal operations
+[Tue May 15 12:38:56.534963 2018] [mpm_winnt:notice] [pid 9824:tid 632] AH00456: Apache Lounge VC15 Server built: Mar 18 2018 11:46:10
+[Tue May 15 12:38:56.534963 2018] [core:notice] [pid 9824:tid 632] AH00094: Command line: 'c:\\users\\rhennessey2019\\desktop\\xampp\\apache\\bin\\httpd.exe -d C:/Users/rhennessey2019/Desktop/xampp/apache'
+[Tue May 15 12:38:56.534963 2018] [mpm_winnt:notice] [pid 9824:tid 632] AH00418: Parent: Created child process 12140
+[Tue May 15 12:38:56.816246 2018] [ssl:warn] [pid 12140:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 15 12:38:56.831754 2018] [ssl:warn] [pid 12140:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 15 12:38:56.831754 2018] [mpm_winnt:notice] [pid 12140:tid 664] AH00354: Child: Starting 150 worker threads.
+[Tue May 15 12:39:40.283741 2018] [ssl:warn] [pid 804:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 15 12:39:40.313798 2018] [core:warn] [pid 804:tid 640] AH00098: pid file C:/Users/rhennessey2019/Desktop/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 15 12:39:40.317810 2018] [ssl:warn] [pid 804:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 15 12:39:40.317810 2018] [mpm_winnt:notice] [pid 804:tid 640] AH00455: Apache/2.4.33 (Win32) OpenSSL/1.1.0g configured -- resuming normal operations
+[Tue May 15 12:39:40.318812 2018] [mpm_winnt:notice] [pid 804:tid 640] AH00456: Apache Lounge VC15 Server built: Mar 18 2018 11:46:10
+[Tue May 15 12:39:40.318812 2018] [core:notice] [pid 804:tid 640] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/rhennessey2019/Desktop/xampp/apache'
+[Tue May 15 12:39:40.320818 2018] [mpm_winnt:notice] [pid 804:tid 640] AH00418: Parent: Created child process 6264
+[Tue May 15 12:39:40.613764 2018] [ssl:warn] [pid 6264:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 15 12:39:40.634843 2018] [ssl:warn] [pid 6264:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 15 12:39:40.636848 2018] [mpm_winnt:notice] [pid 6264:tid 604] AH00354: Child: Starting 150 worker threads.
+[Tue May 15 12:45:33.390984 2018] [ssl:warn] [pid 9888:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 15 12:45:33.423118 2018] [core:warn] [pid 9888:tid 660] AH00098: pid file C:/Users/rhennessey2019/Desktop/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 15 12:45:33.423118 2018] [ssl:warn] [pid 9888:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 15 12:45:33.423118 2018] [mpm_winnt:notice] [pid 9888:tid 660] AH00455: Apache/2.4.33 (Win32) OpenSSL/1.1.0g configured -- resuming normal operations
+[Tue May 15 12:45:33.423118 2018] [mpm_winnt:notice] [pid 9888:tid 660] AH00456: Apache Lounge VC15 Server built: Mar 18 2018 11:46:10
+[Tue May 15 12:45:33.423118 2018] [core:notice] [pid 9888:tid 660] AH00094: Command line: 'c:\\users\\rhennessey2019\\desktop\\xampp\\apache\\bin\\httpd.exe -d C:/Users/rhennessey2019/Desktop/xampp/apache'
+[Tue May 15 12:45:33.423118 2018] [mpm_winnt:notice] [pid 9888:tid 660] AH00418: Parent: Created child process 4180
+[Tue May 15 12:45:33.704423 2018] [ssl:warn] [pid 4180:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 15 12:45:33.735649 2018] [ssl:warn] [pid 4180:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 15 12:45:33.735649 2018] [mpm_winnt:notice] [pid 4180:tid 640] AH00354: Child: Starting 150 worker threads.
+[Tue May 15 12:45:36.346550 2018] [access_compat:error] [pid 4180:tid 1880] [client ::1:61659] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/icons/blank.gif, referer: http://localhost:8080/
+[Tue May 15 12:45:36.347552 2018] [access_compat:error] [pid 4180:tid 1880] [client ::1:61659] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/error/HTTP_FORBIDDEN.html.var, referer: http://localhost:8080/
+[Tue May 15 12:45:36.351563 2018] [access_compat:error] [pid 4180:tid 1868] [client ::1:61661] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/icons/unknown.gif, referer: http://localhost:8080/
+[Tue May 15 12:45:36.351563 2018] [access_compat:error] [pid 4180:tid 1876] [client ::1:61660] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/icons/text.gif, referer: http://localhost:8080/
+[Tue May 15 12:45:36.351563 2018] [access_compat:error] [pid 4180:tid 1860] [client ::1:61662] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/icons/folder.gif, referer: http://localhost:8080/
+[Tue May 15 12:45:36.352565 2018] [access_compat:error] [pid 4180:tid 1868] [client ::1:61661] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/error/HTTP_FORBIDDEN.html.var, referer: http://localhost:8080/
+[Tue May 15 12:45:36.352565 2018] [access_compat:error] [pid 4180:tid 1876] [client ::1:61660] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/error/HTTP_FORBIDDEN.html.var, referer: http://localhost:8080/
+[Tue May 15 12:45:36.352565 2018] [access_compat:error] [pid 4180:tid 1860] [client ::1:61662] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/error/HTTP_FORBIDDEN.html.var, referer: http://localhost:8080/
+[Wed May 16 10:51:13.525924 2018] [ssl:warn] [pid 10068:tid 676] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:51:13.541523 2018] [core:warn] [pid 10068:tid 676] AH00098: pid file C:/Users/rhennessey2019/Desktop/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 16 10:51:13.557194 2018] [ssl:warn] [pid 10068:tid 676] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:51:13.557194 2018] [mpm_winnt:notice] [pid 10068:tid 676] AH00455: Apache/2.4.33 (Win32) OpenSSL/1.1.0g configured -- resuming normal operations
+[Wed May 16 10:51:13.557194 2018] [mpm_winnt:notice] [pid 10068:tid 676] AH00456: Apache Lounge VC15 Server built: Mar 18 2018 11:46:10
+[Wed May 16 10:51:13.557194 2018] [core:notice] [pid 10068:tid 676] AH00094: Command line: 'c:\\users\\rhennessey2019\\desktop\\xampp\\apache\\bin\\httpd.exe -d C:/Users/rhennessey2019/Desktop/xampp/apache'
+[Wed May 16 10:51:13.557194 2018] [mpm_winnt:notice] [pid 10068:tid 676] AH00418: Parent: Created child process 2552
+[Wed May 16 10:51:13.836822 2018] [ssl:warn] [pid 2552:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:51:13.868075 2018] [ssl:warn] [pid 2552:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:51:13.868075 2018] [mpm_winnt:notice] [pid 2552:tid 640] AH00354: Child: Starting 150 worker threads.
+[Wed May 16 10:51:17.677950 2018] [access_compat:error] [pid 2552:tid 1884] [client ::1:62347] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/error/HTTP_NOT_FOUND.html.var, referer: http://localhost:8080/Registration.php
+[Wed May 16 10:55:16.392749 2018] [ssl:warn] [pid 5728:tid 720] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:55:16.430006 2018] [core:warn] [pid 5728:tid 720] AH00098: pid file C:/Users/rhennessey2019/Desktop/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 16 10:55:16.433989 2018] [ssl:warn] [pid 5728:tid 720] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:55:16.474001 2018] [mpm_winnt:notice] [pid 5728:tid 720] AH00455: Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 configured -- resuming normal operations
+[Wed May 16 10:55:16.474001 2018] [mpm_winnt:notice] [pid 5728:tid 720] AH00456: Apache Lounge VC15 Server built: Mar 18 2018 11:46:10
+[Wed May 16 10:55:16.474001 2018] [core:notice] [pid 5728:tid 720] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/rhennessey2019/Desktop/xampp/apache'
+[Wed May 16 10:55:16.477240 2018] [mpm_winnt:notice] [pid 5728:tid 720] AH00418: Parent: Created child process 6660
+Apache server shutdown initiated...
+sl:warn] [pid 6660:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:55:16.778719 2018] [ssl:warn] [pid 6660:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:55:16.778719 2018] [mpm_winnt:notice] [pid 6660:tid 672] AH00354: Child: Starting 150 worker threads.
+[Wed May 16 10:55:18.445526 2018] [mpm_winnt:notice] [pid 5728:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 16 10:55:20.487503 2018] [mpm_winnt:notice] [pid 6660:tid 672] AH00364: Child: All worker threads have exited.
+[Wed May 16 10:55:20.517491 2018] [mpm_winnt:notice] [pid 5728:tid 720] AH00430: Parent: Child process 6660 exited successfully.
+[Wed May 16 10:55:21.164672 2018] [ssl:warn] [pid 5508:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:55:21.208436 2018] [ssl:warn] [pid 5508:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:55:21.211444 2018] [mpm_winnt:notice] [pid 5508:tid 672] AH00455: Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 configured -- resuming normal operations
+[Wed May 16 10:55:21.211444 2018] [mpm_winnt:notice] [pid 5508:tid 672] AH00456: Apache Lounge VC15 Server built: Mar 18 2018 11:46:10
+[Wed May 16 10:55:21.211444 2018] [core:notice] [pid 5508:tid 672] AH00094: Command line: 'c:\\users\\rhennessey2019\\desktop\\xampp\\apache\\bin\\httpd.exe -d C:/Users/rhennessey2019/Desktop/xampp/apache'
+[Wed May 16 10:55:21.214452 2018] [mpm_winnt:notice] [pid 5508:tid 672] AH00418: Parent: Created child process 10100
+[Wed May 16 10:55:21.500187 2018] [ssl:warn] [pid 10100:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:55:21.517506 2018] [ssl:warn] [pid 10100:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:55:21.517506 2018] [mpm_winnt:notice] [pid 10100:tid 660] AH00354: Child: Starting 150 worker threads.
+[Wed May 16 10:56:28.152084 2018] [ssl:warn] [pid 8272:tid 688] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:56:28.178410 2018] [core:warn] [pid 8272:tid 688] AH00098: pid file C:/Users/rhennessey2019/Desktop/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 16 10:56:28.182689 2018] [ssl:warn] [pid 8272:tid 688] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:56:28.182689 2018] [mpm_winnt:notice] [pid 8272:tid 688] AH00455: Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 configured -- resuming normal operations
+[Wed May 16 10:56:28.182689 2018] [mpm_winnt:notice] [pid 8272:tid 688] AH00456: Apache Lounge VC15 Server built: Mar 18 2018 11:46:10
+[Wed May 16 10:56:28.182689 2018] [core:notice] [pid 8272:tid 688] AH00094: Command line: 'c:\\users\\rhennessey2019\\desktop\\xampp\\apache\\bin\\httpd.exe -d C:/Users/rhennessey2019/Desktop/xampp/apache'
+[Wed May 16 10:56:28.182689 2018] [mpm_winnt:notice] [pid 8272:tid 688] AH00418: Parent: Created child process 8804
+[Wed May 16 10:56:28.472460 2018] [ssl:warn] [pid 8804:tid 692] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:56:28.498252 2018] [ssl:warn] [pid 8804:tid 692] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:56:28.502263 2018] [mpm_winnt:notice] [pid 8804:tid 692] AH00354: Child: Starting 150 worker threads.
+[Wed May 16 10:59:11.065961 2018] [ssl:warn] [pid 4008:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:59:11.097242 2018] [core:warn] [pid 4008:tid 652] AH00098: pid file C:/Users/rhennessey2019/Desktop/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 16 10:59:11.097242 2018] [ssl:warn] [pid 4008:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:59:11.097242 2018] [mpm_winnt:notice] [pid 4008:tid 652] AH00455: Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 configured -- resuming normal operations
+[Wed May 16 10:59:11.097242 2018] [mpm_winnt:notice] [pid 4008:tid 652] AH00456: Apache Lounge VC15 Server built: Mar 18 2018 11:46:10
+[Wed May 16 10:59:11.097242 2018] [core:notice] [pid 4008:tid 652] AH00094: Command line: 'c:\\users\\rhennessey2019\\desktop\\xampp\\apache\\bin\\httpd.exe -d C:/Users/rhennessey2019/Desktop/xampp/apache'
+[Wed May 16 10:59:11.112869 2018] [mpm_winnt:notice] [pid 4008:tid 652] AH00418: Parent: Created child process 11216
+[Wed May 16 10:59:11.392901 2018] [ssl:warn] [pid 11216:tid 696] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:59:11.416964 2018] [ssl:warn] [pid 11216:tid 696] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 10:59:11.419972 2018] [mpm_winnt:notice] [pid 11216:tid 696] AH00354: Child: Starting 150 worker threads.
+[Wed May 16 10:59:12.767881 2018] [access_compat:error] [pid 11216:tid 1924] [client ::1:62732] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/icons/blank.gif, referer: http://localhost:8080/
+[Wed May 16 10:59:12.768884 2018] [access_compat:error] [pid 11216:tid 1924] [client ::1:62732] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/error/HTTP_FORBIDDEN.html.var, referer: http://localhost:8080/
+[Wed May 16 10:59:12.770888 2018] [access_compat:error] [pid 11216:tid 1916] [client ::1:62733] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/icons/text.gif, referer: http://localhost:8080/
+[Wed May 16 10:59:12.770888 2018] [access_compat:error] [pid 11216:tid 1916] [client ::1:62733] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/error/HTTP_FORBIDDEN.html.var, referer: http://localhost:8080/
+[Wed May 16 10:59:12.770888 2018] [access_compat:error] [pid 11216:tid 1912] [client ::1:62734] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/icons/unknown.gif, referer: http://localhost:8080/
+[Wed May 16 10:59:12.771902 2018] [access_compat:error] [pid 11216:tid 1912] [client ::1:62734] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/error/HTTP_FORBIDDEN.html.var, referer: http://localhost:8080/
+[Wed May 16 10:59:12.771902 2018] [access_compat:error] [pid 11216:tid 1900] [client ::1:62735] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/icons/folder.gif, referer: http://localhost:8080/
+[Wed May 16 10:59:12.772893 2018] [access_compat:error] [pid 11216:tid 1900] [client ::1:62735] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/error/HTTP_FORBIDDEN.html.var, referer: http://localhost:8080/
+[Wed May 16 11:02:03.323369 2018] [ssl:warn] [pid 1904:tid 700] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 11:02:03.352161 2018] [core:warn] [pid 1904:tid 700] AH00098: pid file C:/Users/rhennessey2019/Desktop/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 16 11:02:03.360181 2018] [ssl:warn] [pid 1904:tid 700] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 11:02:03.364422 2018] [mpm_winnt:notice] [pid 1904:tid 700] AH00455: Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 configured -- resuming normal operations
+[Wed May 16 11:02:03.364422 2018] [mpm_winnt:notice] [pid 1904:tid 700] AH00456: Apache Lounge VC15 Server built: Mar 18 2018 11:46:10
+[Wed May 16 11:02:03.364422 2018] [core:notice] [pid 1904:tid 700] AH00094: Command line: 'c:\\users\\rhennessey2019\\desktop\\xampp\\apache\\bin\\httpd.exe -d C:/Users/rhennessey2019/Desktop/xampp/apache'
+[Wed May 16 11:02:03.364422 2018] [mpm_winnt:notice] [pid 1904:tid 700] AH00418: Parent: Created child process 6296
+[Wed May 16 11:02:03.645780 2018] [ssl:warn] [pid 6296:tid 692] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 11:02:03.687669 2018] [ssl:warn] [pid 6296:tid 692] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 11:02:03.691680 2018] [mpm_winnt:notice] [pid 6296:tid 692] AH00354: Child: Starting 150 worker threads.
+[Wed May 16 11:08:53.171136 2018] [ssl:warn] [pid 6792:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 11:08:53.209700 2018] [core:warn] [pid 6792:tid 656] AH00098: pid file C:/Users/rhennessey2019/Desktop/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 16 11:08:53.217695 2018] [ssl:warn] [pid 6792:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 11:08:53.221704 2018] [mpm_winnt:notice] [pid 6792:tid 656] AH00455: Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 configured -- resuming normal operations
+[Wed May 16 11:08:53.221704 2018] [mpm_winnt:notice] [pid 6792:tid 656] AH00456: Apache Lounge VC15 Server built: Mar 18 2018 11:46:10
+[Wed May 16 11:08:53.221704 2018] [core:notice] [pid 6792:tid 656] AH00094: Command line: 'c:\\users\\rhennessey2019\\desktop\\xampp\\apache\\bin\\httpd.exe -d C:/Users/rhennessey2019/Desktop/xampp/apache'
+[Wed May 16 11:08:53.223710 2018] [mpm_winnt:notice] [pid 6792:tid 656] AH00418: Parent: Created child process 10452
+[Wed May 16 11:08:53.512536 2018] [ssl:warn] [pid 10452:tid 676] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 11:08:53.528191 2018] [ssl:warn] [pid 10452:tid 676] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 16 11:08:53.528191 2018] [mpm_winnt:notice] [pid 10452:tid 676] AH00354: Child: Starting 150 worker threads.
+[Wed May 16 11:08:58.699261 2018] [access_compat:error] [pid 10452:tid 1924] [client ::1:58683] AH01797: client denied by server configuration: C:/Users/rhennessey2019/Desktop/xampp/apache/error/HTTP_NOT_FOUND.html.var
