@@ -2,9 +2,11 @@
 <body>
 
 Code: <?php echo $_REQUEST["Code"]; ?><br>
-Password hash: <?php if ($_REQUEST["Password"]==$_REQUEST["PasswordCheck"]) {
+Password hash: <?php if (($_REQUEST["Password"]=='')) {
+	echo 'password cannot be empty';
+}else if (($_REQUEST["Password"]==$_REQUEST["PasswordCheck"])) {
 	echo hash('sha256', $_REQUEST["Password"]);
-}else{
+}else {
 	echo 'passwords do not match';
 } ?>
 </body>
