@@ -1,0 +1,43 @@
+body{
+	font: arial;
+}
+
+p {
+	font-family: arial, verdana, sans-serif;
+	font-size: 15pt;
+	margin:10px;
+	text-shadow: grey;
+	text-orientation: 
+
+}
+form{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+input{
+	font-family: arial, verdana, sans-serif;
+	font-size: 20pt;
+}
+input, textarea, button{
+	padding: 10px:
+	width:100%;
+}
+img{
+	opacity: .25;
+	height: auto;
+	width: auto;
+}
+#ASITLogo
+{
+
+}
+.logintype{
+	width: 100%;
+	max-width: 250px;
+
+}
+
+ {
+    position: static;
+    border: 3px solid #73AD21;
+}
