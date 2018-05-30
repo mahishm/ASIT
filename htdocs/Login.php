@@ -1,13 +1,11 @@
 <html>
 <body>
 
-Code: <?php echo $_REQUEST["Code"]; ?><br>
+Username: <?php echo $_REQUEST["Username"]; ?><br>
 Password hash: <?php if (($_REQUEST["Password"]=='')) {
 	echo 'password cannot be empty';
-}else if (($_REQUEST["Password"]==$_REQUEST["PasswordCheck"])) {
+}else{
 	echo hash('sha256', $_REQUEST["Password"]);
-}else {
-	echo 'passwords do not match';
 } ?>
 </body>
 </html>
