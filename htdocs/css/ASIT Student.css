@@ -30,3 +30,7 @@ span.usertext{
 	position: relative;
 	top: 10px;
 }
+iframe{
+	border: black;
+	margin: auto;
+}
