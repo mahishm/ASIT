@@ -36,7 +36,7 @@
 	        <a class="nav-link" href="#">Students <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Account</a>
+	        <a class="nav-link" href="TeacherAccount.html">Account</a>
 	      </li>
 	    </ul>
 	  </div>
@@ -62,8 +62,8 @@
 			</tr>
 		</thead>
 		<tbody>
+			<!--once we have a database, add a line at the beginning of the php to connect to the database-->
 			<?php 
-
 			$studentnames = mysql_query("SELECT f_name, l_name FROM PERSON WHERE person_type_id = 1");
 			while($row = mysql_fetch_assoc($studentnames)){
 			?>
@@ -78,6 +78,7 @@
 	</table>
 	<!-- ^this will not work until we have a database and xampp installed-->
 
-	<!-- https://stackoverflow.com/questions/14548110/putting-sql-data-into-html-table-->
+	<!-- https://stackoverflow.com/questions/14548110/putting-sql-data-into-html-table
+	https://stackoverflow.com/questions/11943479/create-html-table-from-sql-table-->
 </body>
 </html>
