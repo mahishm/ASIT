@@ -36,7 +36,7 @@
 	        <a class="nav-link" href="TeacherStudents.html">Students </a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Account</a>
+	        <a class="nav-link" href="TeacherAccount.html">Account</a>
 	      </li>
 	    </ul>
 	  </div>
@@ -90,6 +90,16 @@
 			}
 		</script>
 		<div class = "graph1info">
+			<p><?php
+				$servername = "localhost";
+				$username = "username";
+				$password = "password";
+				$conn = new mysqli($servername, $username, $password);
+				if (!$conn) {
+  				  echo "Connection Failed"
+				} 
+				echo mysql_query("SELECT STATEMENT FROM QUESTION WHERE question_id = 1")?>
+			</p>
 			<p class = "graphinfo">
 			Responses:
 			<?php $query = mysql_query("SELECT DISTINCT a.RESPONSE FROM ANSWER a JOIN Q_A_LINKER qal ON(qal.answer_id =a.answer_id) JOIN QUESTION q ON(q.question_id = qal.question_id) WHERE question_id = 1")
