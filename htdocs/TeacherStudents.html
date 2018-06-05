@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Students</title>
-	<link rel="stylesheet" type="text/css" href="TeacherStudents.css">
+	<link rel="stylesheet" type="text/css" href="css/TeacherStudents.css">
 
 	    <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -10,11 +10,52 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Teacher.css">
+    <style>
+    body {
+        font-family: "Lato", sans-serif;
+    }
+
+    .sidenav {
+        width: 130px;
+        position: auto;
+        z-index: 1;
+        top: 20px;
+        left: 10px;
+        background: #eee;
+        overflow-x: hidden;
+        padding: 8px 0;
+    }
+
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #2196F3;
+        display: block;
+    }
+
+    .sidenav a:hover {
+        color: #064579;
+    }
+
+    .main {
+        margin-left: 140px; /* Same width as the sidebar + left position in px */
+        font-size: 28px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+    }
+
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }
+    </style>
 </head>
 <body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--^These complicated looking Javascripts just link it to the Bootstrap libraries-->
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -77,6 +118,14 @@
 			?>
 		</tbody>
 	</table>
+
+
+<div class="sidenav">
+  <a href="#about">Parent Vision</a>
+  <a href="#services">Preferred Learning Styles</a>
+  <a href="#clients">Student Details</a>
+  <a href="#contact">Student Vision</a>
+</div>
 	<!-- ^this will not work until we have a database and xampp installed
 		This database will have a student hyperlink so that teachers click on a student's name and have access to student vision, parent vision, preferred learning style, strengths, weaknesses, and teacher strategies 
 
