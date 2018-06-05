@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Students</title>
-	<link rel="stylesheet" type="text/css" href="css/TeacherStudents.css">
+	<title>Strategies</title>
+	<link rel="stylesheet" type="text/css" href="css/TeacherAccount.css">
 
 	    <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -14,8 +14,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--^These complicated looking Javascripts just link it to the Bootstrap libraries-->
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -34,11 +32,11 @@
 	      <li class="nav-item">
 	        <a class="nav-link" href="TeacherStrategies.html">Strategies</a>
 	      </li>
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Students <span class="sr-only">(current)</span></a>
-	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="TeacherAccount.html">Account</a>
+	        <a class="nav-link" href="TeacherStudents.html">Students </a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Account<span class="sr-only">(current)</span></a>
 	      </li>
 	    </ul>
 	  </div>
@@ -55,46 +53,10 @@
 	<hr>
 	<!-- ^This is on all pages-->
 
-	<h1 class = "StudentHeader" align="center">Students</h1>
-	<table>
-		<thead>
-			<tr>
-				<th>First Name</th>
-				<th>Last Name</th>
-			</tr>
-		</thead>
-		<tbody>
-			<!--once we have a database, add a line at the beginning of the php to connect to the database-->
-			<?php 
-			$studentnames = mysql_query("SELECT f_name, l_name FROM PERSON WHERE person_type_id = 1");
-			while($row = mysql_fetch_assoc($studentnames)){
-			?>
-			<tr>
-				<td> <?php echo $row['f_name']?> </td>
-				<td> <?php echo $row['l_name']?> </td>
-			</tr>
-			<?php
-			}
-			?>
-		</tbody>
-	</table>
+	<h1 class = "PageTitle"> Account </h1>
+	<p>Name:</p>
+	<p>Status: Teacher</p>
+	<p>Email: </p>
 
-
-<div class="sidenav">
-  <a href="#about">Parent Vision</a>
-  <a href="#services">Preferred Learning Styles</a>
-  <a href="#clients">Student Details</a>
-  <a href="#contact">Student Vision</a>
-</div>
-	<!-- ^this will not work until we have a database and xampp installed
-		This database will have a student hyperlink so that teachers click on a student's name and have access to student vision, parent vision, preferred learning style, strengths, weaknesses, and teacher strategies 
-
-
-
-
-	-->
-
-	<!-- https://stackoverflow.com/questions/14548110/putting-sql-data-into-html-table
-	https://stackoverflow.com/questions/11943479/create-html-table-from-sql-table-->
 </body>
 </html>
